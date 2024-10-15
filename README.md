@@ -1,4 +1,4 @@
-# Tic-Tac-Toe Game
+# Tic-Tac-Toe [View Live](https://pritamkumarshahi.github.io/tic-tac-toe/)
 
 This project is a simple implementation of the classic Tic-Tac-Toe game built with React. It allows two players to play against each other in a traditional 3x3 grid.
 
