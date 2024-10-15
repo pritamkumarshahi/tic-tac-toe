@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(228, 228, 228);
+    background-image: url('https://w0.peakpx.com/wallpaper/450/973/HD-wallpaper-brown-wooden-boards-wooden-frames-brown-wooden-texture-wooden-backgrounds-wooden-textures-wooden-planks-vertical-wooden-boards-brown-backgrounds.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tic-tac-container-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.tic-tac-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+.tic-tac-row-1, .tic-tac-row-2, .tic-tac-row-3 {
+    display: flex;
+  }
+
+
+  .row-tic-tack-1, .row-tic-tack-2, .row-tic-tack-3 {
+    background-color: rgb(228, 228, 228);
+    background-image: url('https://w0.peakpx.com/wallpaper/61/341/HD-wallpaper-light-wooden-texture-wooden-backgrounds-macro-wooden-textures-light-brown-backgrounds-brown-wood-light-brown-wooden-background.jpg'); /* Image for each square */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #8b5e34;
+    font-size: 3rem;
+    color: #4c301c;
+    font-family: 'Cursive', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 800;
+    font-family: fantasy;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    border-image: url('https://w0.peakpx.com/wallpaper/577/790/HD-wallpaper-brown-wooden-texture-close-up-wooden-textures-brown-backgrounds-macro-wooden-backgrounds-brown-wood-brown-wooden-background.jpg') 30 round;
+}
+
+.row-tic-tack-1:hover, .row-tic-tack-2:hover, .row-tic-tack-3:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+}
+
+.row-tic-tack-1.x, .row-tic-tack-2.x, .row-tic-tack-3.x {
+    color: green;
+}
+.row-tic-tack-1.o, .row-tic-tack-2.o, .row-tic-tack-3.o {
+    color: red;
+}
+
+.game-info {
+    font-size: 1.5rem;
+    margin: 20px;
+    color: #ffffff;
+    font-family: 'Cursive', sans-serif;
+    font-weight: 700;
+}
+
+.reset-btn {
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+
+.reset-btn:hover {
+    background-color: #cc681c;
+}
