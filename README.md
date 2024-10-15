@@ -77,3 +77,6 @@ npm run build
 This will create an optimized production build of the game, which you can then deploy to platforms like GitHub Pages, Netlify, or Vercel.
 
 ### Now you're all set to enjoy a fun game of Tic-Tac-Toe!
+
+Uploading tic-tac.mov…
+
