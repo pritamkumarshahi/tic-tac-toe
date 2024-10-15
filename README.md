@@ -47,20 +47,21 @@ npm run build
 
 ## File Structure
 
-tic-tac-toe/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── GameInfo.js
-│   │   ├── Square.js
-│   │   └── TicTac.js
-│   ├── styles/
-│   │   └── TicTac.css
-│   ├── App.js
-│   └── index.js
-├── package.json
-└── README.md
+- `tic-tac-toe/`: Root directory of the project.
+- `public/`: Directory for public files, containing:
+  - `index.html`: Entry point for the app.
+- `src/`: Source files for the project:
+  - `components/`: Contains React components.
+    - `GameInfo.js`: Component for displaying game info (player turn, winner).
+    - `Square.js`: Component for individual game squares.
+    - `TicTac.js`: Main game component.
+  - `styles/`: Directory for stylesheets.
+    - `TicTac.css`: CSS file for the Tic-Tac-Toe game styles.
+  - `App.js`: Main app component.
+  - `index.js`: JavaScript entry point for React.
+- `package.json`: File that lists project dependencies and scripts.
+- `README.md`: Project documentation file.
+
 
 ### Future Enhancements
 - Add a scoring system to keep track of wins.
